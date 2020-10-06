@@ -1,0 +1,150 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* img {
+  width: 50%;
+  height: 15rem;
+} */
+
+#banner {
+  width: 100%;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  position: absolute;
+  margin: 0px;
+  list-style-type: none;
+  width: 100%;
+  background-image: url('./images/home-banner.png');
+}
+
+.nav-button {
+  height: 32px;
+  width: 100px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url('./images/DC1e.jpg');
+  width: 100%;
+}
+
+/* @media (min-width: 300px) and (max-width: 500px) {
+  .home-text {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+/* text-align: center; */
+/* font-size:  12pt; */
+/* width: 100%; */
+/* margin: 0px; */
+/*} */
+.urns {
+  margin-top: 0px;
+  /* float: right; */
+}
+/* } */
+
+.home-text {
+  text-align: center;
+  /* width: 35%; */
+  font-size: 2.5rem;
+  margin-left: 10px;
+  padding-top: 2rem;
+  word-wrap: break-word;
+}
+
+.home-seccol {
+  /* width: 35%; */
+  font-size: 2.5rem;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.home-thirdcol {
+  /* width: 30%; */
+  margin-left: 3rem;
+}
+@media (min-width: 200px) and (max-width: 500px) {
+  .home-thirdcol {
+    /* width: 30%; */
+    min-height: 400px;
+  }
+}
+.urns {
+  margin-right: 1rem;
+  width: 200px;
+  height: 300px;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+.about-header {
+  position: relative;
+  float: right;
+}
+
+.about-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.75rem;
+}
+
+@media (min-width: 800px) {
+  .about-con {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+}
+
+/* .about-para {
+  margin: 10px;
+} */
